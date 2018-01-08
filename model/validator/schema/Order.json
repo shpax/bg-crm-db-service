@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {
+    "client_id": { "type": "integer" },
+    "item_id": { "type": "integer" },
+    "status": { "type": "string" },
+    "send_date": { "type": "time" },
+    "finish_date": { "type": "time" },
+    "create_date": { "type": "time" },
+    "address": { "type": "string" },
+    "paid": { "type": "integer", "minimum": 0 }
+  }
+}

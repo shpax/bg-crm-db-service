@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "name": { "type": "string" },
+    "height": { "type": "integer", "minimum": 0 },
+    "print_price": { "type": "integer", "minimum": 0 },
+    "paint_price": { "type": "integer", "minimum": 0 },
+    "job_price": { "type": "integer", "minimum": 0 },
+    "packing_price": { "type": "integer", "minimum": 0 },
+    "client_price": { "type": "integer", "minimum": 0 }
+  }
+}
